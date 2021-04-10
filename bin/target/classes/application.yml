@@ -1,0 +1,12 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/repair_sys?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: repair_root
+    password: chenxile12AB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    port: 6379
+    host: localhost
+    database: 0
